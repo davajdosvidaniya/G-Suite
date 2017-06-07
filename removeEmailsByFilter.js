@@ -1,4 +1,4 @@
-###filter example: from:zillow.com older_than:14d and not label:starred
+//filter example: from:zillow.com older_than:14d and not label:starred
 
 function processCleaners() {
   
