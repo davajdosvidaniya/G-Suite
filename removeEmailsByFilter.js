@@ -27,6 +27,9 @@ function processCleaners() {
         }
       }
       Logger.log("Deleted %s %s", filters[i][0], deleted);
-    } catch (e) {MailApp.sendEmail("akotler@gmail.com", "[ERROR] processCleaners [" + filters[i][0] + "]", "Msg: " + e.message + " Line: " + e.lineNumber );}  
+    } catch (e) {
+      MailApp.sendEmail("myemail@gmail.com", "[ERROR] processCleaners [" + filters[i][0] + "]", 
+                         "Msg: " + e.message + " Line: " + e.lineNumber );
+    }  
   }
 }
