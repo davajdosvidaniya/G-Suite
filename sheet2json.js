@@ -1,3 +1,6 @@
+//Google Spreadsheet JSON ExportHow-to at http://blog.pamelafox.org/2013/06/exporting-google-spreadsheet-as-json.html
+// Change - Removed GUI
+
 // Includes functions for exporting active sheet or all sheets as JSON object (also Python object syntax compatible).
 // Tweak the makePrettyJSON_ function to customize what kind of JSON to export.
 
